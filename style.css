@@ -1,0 +1,121 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    background: #F4F6FF ;
+    height: 100%;
+    width: 100%;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+}
+header:hover{
+    width: 90%;
+}
+main{
+    background-color: #F6F6F6;
+}
+nav ul{
+    display: flex;
+    list-style: none
+}
+nav li{
+    
+    margin-right: 2em;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    background-color: #ddd;
+    border-radius: 2px;
+}
+.capimg-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3em;
+}
+.special-part{
+    color:cadetblue;
+}
+.caption-box{
+    padding-left: 306px;
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+    
+}
+.image-box{
+    border: 1px solid maroon;
+    border-radius: 205px;
+}
+.image-box img{
+    width: 500px;
+    height: 400px;
+    border-radius: 227px;
+}
+.caption-box:hover{
+    background-color: #EBEBEB;
+    font-size: 200%;
+    
+
+}
+.bar-section{
+    height: 55px;
+    background-color: #0f0e0e42;
+    border: 2px solid #92A9BD;
+    margin-top: 30px;
+    color: #FFF9F9;
+}
+.bar-section ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.section-2-boxes{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.section-2-boxes img{
+    width: 70%;
+    height: 80%;
+    padding-top: 38px;
+    margin-left: 34px;
+    border-radius: 27px;
+    border: 1px solid #FF7F3F;
+    background-color: cadetblue;
+
+}
+
+.sec2-box2{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.sec2-box2 div img{
+    width: 30%;
+    border-radius: 62px;
+}
+.sec2-box2 div img:hover{
+    
+}
+.section-2-boxes img:hover{
+    transition: 1s ease-in-out;
+    height: 50%;
+    width: 40%;
+}
+.box-2-upperpart{
+    width: 700px;
+    height: 100px;
+    background-color: #EAEAEA;
+    margin-bottom: 30px;
+
+}
